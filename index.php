@@ -26,7 +26,7 @@ else
         <h1>Congratulations!</h1>
         <p>Your AWS Elastic Beanstalk <em>PHP</em> application is now running on your own dedicated environment in the AWS&nbsp;Cloud deployed via Cloud Pipeline!</p>
         <p>You are running PHP version <?= phpversion() ?></p>
-        <p>This environment is launched with Elastic Beanstalk PHP Platform and a Cloud Pipeline hook into GitHub</p>
+        <p>This environment is launched with Elastic Beanstalk PHP Platform and a Cloud Pipeline hook into GitHub with CloudBuild running tests</p>
     </section>
 
     <section class="instructions">
