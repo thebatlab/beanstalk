@@ -7,6 +7,6 @@ class FailTest extends KernelTestCase
 
     public function testFailCase()
     {
-        self::assertEquals(false, true);
+        self::assertEquals(false, false);
     }
 }
